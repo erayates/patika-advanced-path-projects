@@ -1,0 +1,25 @@
+body{
+  @apply font-roboto container mx-auto text-[#253345] !important;
+}
+
+/************************
+  *  Tailwind Components  *
+  ************************/
+
+/***********************
+      HERO COMPONENT
+***********************/
+.hero{
+  background: linear-gradient(144deg,rgba(255,255,255,1) 0%,rgba(215,231,254,1) 100%);
+  clip-path: polygon(0 0, 100% 1%, 100% 86%, 0% 100%);
+  @apply w-full h-screen absolute top-0 left-0 z-[-1];
+}
+
+.hero-title{
+  @apply text-[48px] font-bold mb-5 leading-[3.5rem]
+}
+
+.hero-subtitle{
+  
+}
+
