@@ -3,7 +3,7 @@ import Calculator from "./Calculator"
 const Hero = () => {
     return (
         <div className="px-6">
-            <div className='hero text-center pt-32 px-6'>
+            <div className='hero text-center  px-6'>
                 <h2 className='hero-title'>
                     Body Mass Index Calculator
                 </h2>

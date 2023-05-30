@@ -2,6 +2,15 @@ body{
   @apply font-roboto container mx-auto text-[#253345] !important;
 }
 
+
+
+/* BG LINEAR GRADIENTS */
+.hero,
+.home-benefits{
+  background: linear-gradient(144deg,rgba(255,255,255,1) 0%,rgba(215,231,254,1) 100%);
+
+}
+
 /************************
   *  Tailwind Components  *
   ************************/
@@ -10,9 +19,8 @@ body{
       HERO COMPONENT
 ***********************/
 .hero{
-  background: linear-gradient(144deg,rgba(255,255,255,1) 0%,rgba(215,231,254,1) 100%);
   clip-path: polygon(0 0, 100% 1%, 100% 86%, 0% 100%);
-  @apply w-full h-screen absolute top-0 left-0 z-[-1];
+  @apply w-full h-[700px] pt-10 z-[-1];
 }
 
 .hero-title{
@@ -21,5 +29,13 @@ body{
 
 .hero-subtitle{
   
+}
+
+.home-limitations__item{
+  box-shadow: 10px 10px 50px #718fbc97;
+}
+
+.home-limitations svg{
+  stroke-width: 1;
 }
 
