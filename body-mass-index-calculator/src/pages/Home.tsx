@@ -6,8 +6,8 @@ import { IoIosPeople } from "react-icons/io"
 
 const Home = () => {
   return (
-    <main className="home mb-20">
-      <div className="home-info  px-6 md:flex">
+    <main className="home">
+      <div className="home-info md:flex">
         <div className="home-info__image rounded-xl relative md:w-1/2">
           <div className="home-info__image__overlay bg-[#DEE8FC] rounded-xl w-full h-[400px] ">
             <img src="https://rococo-shortbread-8c82fb.netlify.app/assets/healthy-person-886c8d03.png" alt="fitness tracker" className="object-cover relative w-full h-full md:object-center" />

@@ -4,7 +4,7 @@ const Hero = () => {
     return (
         <div className="px-6 md:flex">
             <div className='hero text-center md:text-left md:flex md:items-center md:px-10 md:w-2/3 px-6'>,
-                <div className="">
+                <div className="lg:w-2/3">
                     <h2 className='hero-title'>
                         Body Mass Index Calculator
                     </h2>
