@@ -10,13 +10,12 @@ const Navigation = () => {
     }
 
     return (
-        <nav className='p-6 flex justify-between items-center relative text-[#253345]'>
+        <nav className='p-6 flex justify-between items-center relative text-[#253345] z-30 bg-white'>
             <div className='nav-logo'>
                 <h1 className='nav-logo__title text-[32px] font-semibold'>BMI</h1>
             </div>
 
             <GiHamburgerMenu className="md:hidden text-[24px] cursor-pointer" onClick={handleMenuToggle} />
-
             {isOpen && (
                 <div className='nav-mobile-menu md:hidden absolute top-[90px]'>
                     <ul className='nav-mobile-menu__list flex flex-col'>

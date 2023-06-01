@@ -3,7 +3,7 @@ import Navigation from "./Navigation"
 
 const Header = () => {
   return (
-    <header>
+    <header className="">
         <Navigation/>
         <Hero/>
     </header>

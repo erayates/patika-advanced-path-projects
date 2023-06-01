@@ -1,7 +1,7 @@
 
 const Calculator = () => {
     return (
-        <div className="calculator bg-white mr-5 ml-5 shadow-xl mt-[-10rem] mb-20 pb-10 rounded-lg text-center relative px-5 ">
+        <div className="calculator bg-white mr-5 ml-5 shadow-xl mb-20 pb-10 rounded-lg text-center px-5 mt-[-13rem] md:mt-0 relative">
             <h3 className="calculator-title pt-8 text-[22px] font-bold">
                 Enter your details below
             </h3>

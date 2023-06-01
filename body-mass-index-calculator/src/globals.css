@@ -2,6 +2,9 @@ body{
   @apply font-roboto container mx-auto text-[#253345] !important;
 }
 
+main{
+  margin-top: 10rem;
+}
 
 
 /* BG LINEAR GRADIENTS */
@@ -20,15 +23,11 @@ body{
 ***********************/
 .hero{
   clip-path: polygon(0 0, 100% 1%, 100% 86%, 0% 100%);
-  @apply w-full h-[700px] pt-10 z-[-1];
+  @apply w-full pb-64 md:pb-20 pt-10 z-[-1];
 }
 
 .hero-title{
   @apply text-[48px] font-bold mb-5 leading-[3.5rem]
-}
-
-.hero-subtitle{
-  
 }
 
 .home-limitations__item{
