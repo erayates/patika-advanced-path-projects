@@ -29,11 +29,6 @@ const Navigation = () => {
                                 What is The BMI?
                             </Link>
                         </li>
-                        <li className='nav-mobile-menu__list-item mb-2 font-medium '>
-                            <Link to="/diets">
-                                Diets
-                            </Link>
-                        </li>
                     </ul>
                 </div>
             )}
@@ -46,11 +41,6 @@ const Navigation = () => {
                     <li className='nav-menu__list-item mr-6 font-medium  cursor-pointer'>
                         <Link to="what-is-the-bmi">
                             What is The BMI?
-                        </Link>
-                    </li>
-                    <li className='nav-menu__list-item mr-6 font-medium  cursor-pointer'>
-                        <Link to="/diets">
-                            Diets
                         </Link>
                     </li>
                 </ul>
