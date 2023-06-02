@@ -28,7 +28,7 @@ const Calculator = () => {
     const handleSubmitForm = (event: any): void => {
         event.preventDefault();
         if(!form.weight || !form.height || !form.type){
-            alert('Please fill all the fields')
+            alert('Please fill all the fields!')
             return
         }
 
@@ -45,24 +45,24 @@ const Calculator = () => {
             </h3>
             <form className="calculator-form" onSubmit={handleSubmitForm} >
                 <div className="calculator-form-radio-button-container mb-2">
-                    <input id="metric" type="radio" name="radio-btn"  onClick={handleRadioButton}/>
+                    <input id="metric" defaultChecked type="radio" name="radio-btn"  onClick={handleRadioButton}/>
                     <label htmlFor="metric" className="calculator-form-radio-button-label">Metric</label>
                 </div>
                 <div className="calculator-form-radio-button-container">
-                    <input id="imperial" type="radio" name="radio-btn" onClick={handleRadioButton}/>
+                    <input id="imperial"  type="radio" name="radio-btn" onClick={handleRadioButton}/>
                     <label htmlFor="imperial" className="calculator-form-radio-button-label">Imperial</label>
                 </div>
 
                 <label className="calculator-form-input-label">Height</label>
                 <div className="calculator-form-input-container">
                     <input type="text" id="height" className="calculator-form-input" onChange={handleChange} />
-                    <label htmlFor='height' className="font-semibold">cm</label>
+                    <label htmlFor='height' className="font-semibold">{form.type === 'imperial' ? 'inches' : 'cm'}</label>
                 </div>
 
                 <label className="calculator-form-input-label">Width</label>
                 <div className="calculator-form-input-container">
                     <input type="text" id='weight' className="calculator-form-input" onChange={handleChange} />
-                    <label htmlFor='weight' className="font-semibold">kg</label>
+                    <label htmlFor='weight' className="font-semibold">{form.type === 'imperial' ? 'pounds' : 'kg'}</label>
                 </div>
 
                 <div className='calculator-button flex justify-end mt-5'>
@@ -74,7 +74,7 @@ const Calculator = () => {
 
             <div className="calculator-info">
                 <p className="calculator-info-text">
-                    Metric height must be between 100cm and 300cm
+                    Metric height must be between {form.type === 'imperial' ? '40 inch and 300 inch' : '100 cm and 300 cm'}
                 </p>
             </div>
         </div>
