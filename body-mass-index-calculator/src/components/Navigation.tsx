@@ -13,7 +13,9 @@ const Navigation = () => {
     return (
         <nav className='p-6 flex justify-between items-center relative text-[#253345] z-30 bg-white'>
             <div className='nav-logo'>
-                <h1 className='nav-logo__title text-[32px] font-semibold'>BMI</h1>
+                <h1 className='nav-logo__title text-[32px] font-semibold'>
+                    <Link to={'/'}>BMI</Link>
+                </h1>
             </div>
 
             <GiHamburgerMenu className="md:hidden text-[24px] cursor-pointer" onClick={handleMenuToggle} />

@@ -1,0 +1,611 @@
+{
+    "mealsPlan": [
+      {
+        "day": "Day 1",
+        "meals": [
+          {
+            "name": "Breakfast",
+            "items": [
+              {
+                "name": "Vegan Freezer Breakfast Burritos",
+                "description": "2 servings",
+                "calories": 706
+              },
+              {
+                "name": "Strawberries",
+                "description": "1 cup",
+                "calories": 0
+              }
+            ]
+          },
+          {
+            "name": "Snack 1",
+            "items": [
+              {
+                "name": "Almond-Honey Power Bar",
+                "description": "1 serving",
+                "calories": 246
+              }
+            ]
+          },
+          {
+            "name": "Lunch",
+            "items": [
+              {
+                "name": "Vegetable & Tuna Pasta Salad",
+                "description": "2 servings",
+                "calories": 649
+              },
+              {
+                "name": "Mango Chunks",
+                "description": "1 cup",
+                "calories": 0
+              }
+            ]
+          },
+          {
+            "name": "Snack 2",
+            "items": [
+              {
+                "name": "Large Apple",
+                "description": "1",
+                "calories": 200
+              },
+              {
+                "name": "Natural Peanut Butter",
+                "description": "1 Tbsp.",
+                "calories": 0
+              }
+            ]
+          },
+          {
+            "name": "Dinner",
+            "items": [
+              {
+                "name": "Sheet-Pan Maple-Mustard Pork Chops and Carrots",
+                "description": "1 serving",
+                "calories": 715
+              },
+              {
+                "name": "Easy Brown Rice",
+                "description": "1 1/2 cups",
+                "calories": 0
+              }
+            ]
+          }
+        ],
+        "totals": {
+          "calories": 2512
+        }
+      },
+      {
+        "day": "Day 2",
+        "meals": [
+          {
+            "name": "Breakfast",
+            "items": [
+              {
+                "name": "Raspberry Peach Mango Smoothie Bowl",
+                "description": "1 serving",
+                "calories": 430
+              },
+              {
+                "name": "Hard-Boiled Egg",
+                "description": "1",
+                "calories": 0
+              }
+            ]
+          },
+          {
+            "name": "Snack 1",
+            "items": [
+              {
+                "name": "Baby Carrots",
+                "description": "15",
+                "calories": 60
+              },
+              {
+                "name": "Hummus",
+                "description": "3 Tbsp.",
+                "calories": 132
+              },
+              {
+                "name": "Medium Orange",
+                "description": "1",
+                "calories": 0
+              }
+            ]
+          },
+          {
+            "name": "Lunch",
+            "items": [
+              {
+                "name": "Roasted Butternut Squash & Root Vegetables with Cauliflower Gnocchi",
+                "description": "1 serving",
+                "calories": 648
+              },
+              {
+                "name": "Whole-Wheat Toast with Unsalted Butter",
+                "description": "1 slice",
+                "calories": 60
+              }
+            ]
+          },
+          {
+            "name": "Snack 2",
+            "items": [
+              {
+                "name": "Homemade Microwave Popcorn",
+                "description": "1 serving",
+                "calories": 125
+              },
+              {
+                "name": "Large Banana",
+                "description": "1",
+                "calories": 121
+              },
+              {
+                "name": "Unsalted Almonds",
+                "description": "8",
+                "calories": 62
+              }
+            ]
+          },
+          {
+            "name": "Dinner",
+            "items": [
+              {
+                "name": "Philly Cheese Steak Sloppy Joes",
+                "description": "2 servings",
+                "calories": 951
+              },
+              {
+                "name": "Fresh Spinach & Shredded Carrots with Olive Oil & Balsamic Vinegar",
+                "description": "2 cups & 1 cup",
+                "calories": 0
+              }
+            ]
+          }
+        ],
+        "totals": {
+          "calories": 2373
+        }
+      },
+      {
+        "day": "Day 3",
+        "meals": [
+          {
+            "name": "Breakfast",
+            "items": [
+              {
+                "name": "Maple-Nut Granola",
+                "description": "2 servings",
+                "calories": 646
+              },
+              {
+                "name": "2% Milk",
+                "description": "1 cup",
+                "calories": 0
+              }
+            ]
+          },
+          {
+            "name": "Snack 1",
+            "items": [
+              {
+                "name": "Swiss Cheese",
+                "description": "1 slice",
+                "calories": 106
+              },
+              {
+                "name": "Whole-Wheat Crackers",
+                "description": "8",
+                "calories": 159
+              }
+            ]
+          },
+          {
+            "name": "Lunch",
+            "items": [
+              {
+                "name": "Roasted Butternut Squash & Root Vegetables with Cauliflower Gnocchi",
+                "description": "1 serving",
+                "calories": 648
+              },
+              {
+                "name": "Whole-Wheat Toast with Unsalted Butter",
+                "description": "1 slice",
+                "calories": 60
+              }
+            ]
+          },
+          {
+            "name": "Snack 2",
+            "items": [
+              {
+                "name": "2% Plain Greek Yogurt",
+                "description": "6 oz.",
+                "calories": 150
+              },
+              {
+                "name": "Strawberries",
+                "description": "1 cup",
+                "calories": 0
+              },
+              {
+                "name": "Honey",
+                "description": "1 Tbsp.",
+                "calories": 64
+              }
+            ]
+          },
+          {
+            "name": "Dinner",
+            "items": [
+              {
+                "name": "Creamy Chicken, Brussels Sprouts and Mushroom One-Pot Pasta",
+                "description": "2 servings",
+                "calories": 709
+              }
+            ]
+          }
+        ],
+        "totals": {
+          "calories": 2273
+        }
+      },
+      {
+        "day": "Day 4",
+        "meals": [
+          {
+            "name": "Breakfast",
+            "items": [
+              {
+                "name": "Maple-Nut Granola",
+                "description": "2 servings",
+                "calories": 646
+              },
+              {
+                "name": "2% Milk",
+                "description": "1 cup",
+                "calories": 0
+              }
+            ]
+          },
+          {
+            "name": "Snack 1",
+            "items": [
+              {
+                "name": "Carrot Sticks",
+                "description": "15",
+                "calories": 30
+              },
+              {
+                "name": "Hummus",
+                "description": "1/4 cup",
+                "calories": 90
+              },
+              {
+                "name": "Medium Orange",
+                "description": "1",
+                "calories": 0
+              }
+            ]
+          },
+          {
+            "name": "Lunch",
+            "items": [
+              {
+                "name": "Roasted Butternut Squash & Root Vegetables with Cauliflower Gnocchi",
+                "description": "1 serving",
+                "calories": 648
+              },
+              {
+                "name": "Whole-Wheat Toast with Unsalted Butter",
+                "description": "1 slice",
+                "calories": 60
+              }
+            ]
+          },
+          {
+            "name": "Snack 2",
+            "items": [
+              {
+                "name": "Graham Crackers",
+                "description": "4",
+                "calories": 180
+              },
+              {
+                "name": "Medium Apple",
+                "description": "1",
+                "calories": 95
+              }
+            ]
+          },
+          {
+            "name": "Dinner",
+            "items": [
+              {
+                "name": "Southern Style Oven-Fried Chicken",
+                "description": "1 serving",
+                "calories": 651
+              },
+              {
+                "name": "Greek Potato Salad",
+                "description": "1 serving",
+                "calories": 220
+              },
+              {
+                "name": "Garlicky Green Beans",
+                "description": "1 serving",
+                "calories": 150
+              }
+            ]
+          }
+        ],
+        "totals": {
+          "calories": 2260
+        }
+      },
+      {
+        "day": "Day 5",
+        "meals": [
+          {
+            "name": "Breakfast",
+            "items": [
+              {
+                "name": "Raspberry Peach Mango Smoothie Bowl",
+                "description": "1 serving",
+                "calories": 430
+              },
+              {
+                "name": "Hard-Boiled Eggs",
+                "description": "2",
+                "calories": 0
+              }
+            ]
+          },
+          {
+            "name": "Snack 1",
+            "items": [
+              {
+                "name": "Almond-Honey Power Bars",
+                "description": "2 servings",
+                "calories": 492
+              }
+            ]
+          },
+          {
+            "name": "Lunch",
+            "items": [
+              {
+                "name": "Roasted Butternut Squash & Root Vegetables with Cauliflower Gnocchi",
+                "description": "1 serving",
+                "calories": 648
+              },
+              {
+                "name": "Whole-Wheat Toast with Unsalted Butter",
+                "description": "1 slice",
+                "calories": 60
+              }
+            ]
+          },
+          {
+            "name": "Snack 2",
+            "items": [
+              {
+                "name": "Homemade Microwave Popcorn",
+                "description": "2 servings",
+                "calories": 330
+              }
+            ]
+          },
+          {
+            "name": "Dinner",
+            "items": [
+              {
+                "name": "Green Goddess Salad with Chicken",
+                "description": "2 servings",
+                "calories": 547
+              },
+              {
+                "name": "Medium Apple",
+                "description": "1",
+                "calories": 95
+              }
+            ]
+          }
+        ],
+        "totals": {
+          "calories": 2262
+        }
+      },
+      {
+        "day": "Day 6",
+        "meals": [
+          {
+            "name": "Breakfast",
+            "items": [
+              {
+                "name": "Vegan Freezer Breakfast Burritos",
+                "description": "2 servings",
+                "calories": 706
+              },
+              {
+                "name": "Strawberries",
+                "description": "1 cup",
+                "calories": 0
+              }
+            ]
+          },
+          {
+            "name": "Snack 1",
+            "items": [
+              {
+                "name": "Baby Carrots",
+                "description": "15",
+                "calories": 60
+              },
+              {
+                "name": "Hummus",
+                "description": "3 Tbsp.",
+                "calories": 132
+              },
+              {
+                "name": "Medium Orange",
+                "description": "1",
+                "calories": 0
+              }
+            ]
+          },
+          {
+            "name": "Lunch",
+            "items": [
+              {
+                "name": "Vegetable & Tuna Pasta Salad",
+                "description": "2 servings",
+                "calories": 649
+              },
+              {
+                "name": "Mango Chunks",
+                "description": "1 cup",
+                "calories": 0
+              }
+            ]
+          },
+          {
+            "name": "Snack 2",
+            "items": [
+              {
+                "name": "Large Apple",
+                "description": "1",
+                "calories": 200
+              },
+              {
+                "name": "Natural Peanut Butter",
+                "description": "1 Tbsp.",
+                "calories": 0
+              }
+            ]
+          },
+          {
+            "name": "Dinner",
+            "items": [
+              {
+                "name": "Sheet-Pan Maple-Mustard Pork Chops and Carrots",
+                "description": "1 serving",
+                "calories": 715
+              },
+              {
+                "name": "Easy Brown Rice",
+                "description": "1 1/2 cups",
+                "calories": 0
+              }
+            ]
+          }
+        ],
+        "totals": {
+          "calories": 2512
+        }
+      },
+      {
+        "day": "Day 7",
+        "meals": [
+          {
+            "name": "Breakfast",
+            "items": [
+              {
+                "name": "Raspberry Peach Mango Smoothie Bowl",
+                "description": "1 serving",
+                "calories": 430
+              },
+              {
+                "name": "Hard-Boiled Egg",
+                "description": "1",
+                "calories": 0
+              }
+            ]
+          },
+          {
+            "name": "Snack 1",
+            "items": [
+              {
+                "name": "Baby Carrots",
+                "description": "15",
+                "calories": 60
+              },
+              {
+                "name": "Hummus",
+                "description": "3 Tbsp.",
+                "calories": 132
+              },
+              {
+                "name": "Medium Orange",
+                "description": "1",
+                "calories": 0
+              }
+            ]
+          },
+          {
+            "name": "Lunch",
+            "items": [
+              {
+                "name": "Roasted Butternut Squash & Root Vegetables with Cauliflower Gnocchi",
+                "description": "1 serving",
+                "calories": 648
+              },
+              {
+                "name": "Whole-Wheat Toast with Unsalted Butter",
+                "description": "1 slice",
+                "calories": 60
+              }
+            ]
+          },
+          {
+            "name": "Snack 2",
+            "items": [
+              {
+                "name": "Mixed Berries",
+                "description": "1 cup",
+                "calories": 0
+              },
+              {
+                "name": "2% Plain Greek Yogurt",
+                "description": "6 oz.",
+                "calories": 150
+              },
+              {
+                "name": "Honey",
+                "description": "1 Tbsp.",
+                "calories": 64
+              }
+            ]
+          },
+          {
+            "name": "Dinner",
+            "items": [
+              {
+                "name": "Grilled Salmon with Lemon-Herb Butter Sauce",
+                "description": "1 serving",
+                "calories": 491
+              },
+              {
+                "name": "Quinoa Pilaf",
+                "description": "1/2 cup",
+                "calories": 111
+              },
+              {
+                "name": "Sautéed Asparagus",
+                "description": "1 serving",
+                "calories": 89
+              }
+            ]
+          }
+        ],
+        "totals": {
+          "calories": 2185
+        }
+      }
+    ]
+  }
+  

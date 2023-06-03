@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { ChangeEvent, FormEvent, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 
 interface IForm {
@@ -9,25 +9,40 @@ interface IForm {
 
 
 const Calculator = () => {
-    const [form, setForm] = useState<IForm[]>([]);
+    const [form, setForm] = useState<IForm>({
+        weight: 0,
+        height: 0,
+        type: ''
+    });
 
     const navigate = useNavigate();
 
-    const handleChange = (event: any): void => {
-        event.target.id === 'height' ?
-            setForm({ ...form, height: event.target.value })
-            : setForm({ ...form, weight: event.target.value })
+    const handleChange = (event: ChangeEvent<HTMLInputElement>): void => {
+        const { id, value } = event.target;
+        if (isNaN(Number(value))) {
+            alert('Please enter a number!')
+            return
+        }
+
+        setForm((prevForm) => ({
+            ...prevForm,
+            [id]: Number(value)
+        }));
 
     };
 
     const handleRadioButton = (event: any): void => {
-        setForm({...form, type: event.target.id })
-    };
+        setForm((prevForm) => ({
+          ...prevForm,
+          type: event.currentTarget.id
+        }));
+      };
+      
 
 
-    const handleSubmitForm = (event: any): void => {
+    const handleSubmitForm = (event: FormEvent<HTMLFormElement>): any => {
         event.preventDefault();
-        if(!form.weight || !form.height || !form.type){
+        if (!form.weight || !form.height || !form.type) {
             alert('Please fill all the fields!')
             return
         }
@@ -45,11 +60,11 @@ const Calculator = () => {
             </h3>
             <form className="calculator-form" onSubmit={handleSubmitForm} >
                 <div className="calculator-form-radio-button-container mb-2">
-                    <input id="metric" defaultChecked type="radio" name="radio-btn"  onClick={handleRadioButton}/>
+                    <input id="metric" defaultChecked type="radio" name="radio-btn" onClick={handleRadioButton} />
                     <label htmlFor="metric" className="calculator-form-radio-button-label">Metric</label>
                 </div>
                 <div className="calculator-form-radio-button-container">
-                    <input id="imperial"  type="radio" name="radio-btn" onClick={handleRadioButton}/>
+                    <input id="imperial" type="radio" name="radio-btn" onClick={handleRadioButton} />
                     <label htmlFor="imperial" className="calculator-form-radio-button-label">Imperial</label>
                 </div>
 

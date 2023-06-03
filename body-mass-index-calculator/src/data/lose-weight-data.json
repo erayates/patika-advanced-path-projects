@@ -1,0 +1,529 @@
+{
+    "mealPlan": [
+      {
+        "day": "Day 1",
+        "meals": [
+          {
+            "name": "Breakfast",
+            "items": [
+              {
+                "name": "Smoothie",
+                "description": "½ banana, ½ cup almond milk, 2 tablespoons Powdered Peanut Butter, Vanilla Protein Powder",
+                "calories": 220,
+                "protein": 21
+              }
+            ]
+          },
+          {
+            "name": "Snack 1",
+            "items": [
+              {
+                "name": "Vanilla Cappuccino",
+                "description": "",
+                "calories": 90,
+                "protein": 15
+              }
+            ]
+          },
+          {
+            "name": "Lunch",
+            "items": [
+              {
+                "name": "Mini protein pizzas",
+                "description": "¼ cup pizza sauce and 1 ounce mozzarella on Rusk Protein Bread with veggie toppings, 1 medium pear",
+                "calories": 330,
+                "protein": 23
+              }
+            ]
+          },
+          {
+            "name": "Snack 2",
+            "items": [
+              {
+                "name": "Protein Potato Chips",
+                "description": "",
+                "calories": 130,
+                "protein": 10
+              }
+            ]
+          },
+          {
+            "name": "Dinner",
+            "items": [
+              {
+                "name": "Vegetable Chili with Beans",
+                "description": "with 1 ounce melted cheddar, 1 cup steamed cauliflower",
+                "calories": 250,
+                "protein": 23
+              }
+            ]
+          },
+          {
+            "name": "Dessert",
+            "items": [
+              {
+                "name": "Non-fat cottage cheese with cinnamon",
+                "description": "",
+                "calories": 90,
+                "protein": 14
+              }
+            ]
+          }
+        ],
+        "totals": {
+          "calories": 1110,
+          "protein": 106
+        }
+      },
+      {
+        "day": "Day 2",
+        "meals": [
+          {
+            "name": "Breakfast",
+            "items": [
+              {
+                "name": "Peaches and Cream Protein Oatmeal",
+                "description": "½ ounce pecans",
+                "calories": 200,
+                "protein": 16
+              }
+            ]
+          },
+          {
+            "name": "Snack 1",
+            "items": [
+              {
+                "name": "Proticcino Instant Protein Drink",
+                "description": "",
+                "calories": 80,
+                "protein": 15
+              }
+            ]
+          },
+          {
+            "name": "Lunch",
+            "items": [
+              {
+                "name": "Fat-free refried beans in roasted green pepper halves",
+                "description": "topped with 1 ounce melted cheddar cheese",
+                "calories": 250,
+                "protein": 14
+              }
+            ]
+          },
+          {
+            "name": "Snack 2",
+            "items": [
+              {
+                "name": "Roasted edamame",
+                "description": "¼ cup",
+                "calories": 240,
+                "protein": 35
+              }
+            ]
+          },
+          {
+            "name": "Dinner",
+            "items": [
+              {
+                "name": "Grilled chicken breast",
+                "description": "4 ounces with VLC Pasta Sauce, Baked sweet potato fries: 1 medium sweet potato brushed with 2 teaspoons olive oil",
+                "calories": 310,
+                "protein": 28
+              }
+            ]
+          },
+          {
+            "name": "Dessert",
+            "items": [
+              {
+                "name": "Baked apple with cinnamon",
+                "description": "½ cup sugar-free low-fat vanilla frozen yogurt",
+                "calories": 160,
+                "protein": 6
+              }
+            ]
+          }
+        ],
+        "totals": {
+          "calories": 1130,
+          "protein": 93
+        }
+      },
+      {
+        "day": "Day 3",
+        "meals": [
+          {
+            "name": "Breakfast",
+            "items": [
+              {
+                "name": "Strawberry Meal Replacement Shake",
+                "description": "½ ounce pecans",
+                "calories": 240,
+                "protein": 35
+              }
+            ]
+          },
+          {
+            "name": "Snack 1",
+            "items": [
+              {
+                "name": "Meat Snack Stick",
+                "description": "",
+                "calories": 70,
+                "protein": 14
+              }
+            ]
+          },
+          {
+            "name": "Lunch",
+            "items": [
+              {
+                "name": "Salad with grilled chicken",
+                "description": "romaine lettuce, tomatoes, cucumbers, 3 ounces grilled chicken, 1 ounce parmesan cheese, 2 tablespoons balsamic vinaigrette",
+                "calories": 300,
+                "protein": 33
+              }
+            ]
+          },
+          {
+            "name": "Snack 2",
+            "items": [
+              {
+                "name": "Chocolate Caramel Protein Granola Snacks",
+                "description": "",
+                "calories": 130,
+                "protein": 15
+              }
+            ]
+          },
+          {
+            "name": "Dinner",
+            "items": [
+              {
+                "name": "Eggplant Bake",
+                "description": "½ large eggplant in slices covered with ¼ cup fat-free ricotta, ½ cup tomato sauce, and 1 ounce mozzarella",
+                "calories": 240,
+                "protein": 14
+              }
+            ]
+          },
+          {
+            "name": "Dessert",
+            "items": [
+              {
+                "name": "Dark chocolate",
+                "description": "1 ounce",
+                "calories": 140,
+                "protein": 2
+              }
+            ]
+          }
+        ],
+        "totals": {
+          "calories": 1220,
+          "protein": 103
+        }
+      },
+      {
+        "day": "Day 4",
+        "meals": [
+          {
+            "name": "Breakfast",
+            "items": [
+              {
+                "name": "Vegetable Omelet",
+                "description": "with 1 ounce melted cheese",
+                "calories": 210,
+                "protein": 22
+              }
+            ]
+          },
+          {
+            "name": "Snack 1",
+            "items": [
+              {
+                "name": "Crispy Cinnamon Protein Bar",
+                "description": "",
+                "calories": 160,
+                "protein": 15
+              }
+            ]
+          },
+          {
+            "name": "Lunch",
+            "items": [
+              {
+                "name": "Chopped salad with shrimp or chicken",
+                "description": "lettuce, tomatoes, 3 ounces cooked shrimp or chicken, 1 ounce feta, Honey Dijon Dressing, 1 cup sliced strawberries",
+                "calories": 280,
+                "protein": 30
+              }
+            ]
+          },
+          {
+            "name": "Snack 2",
+            "items": [
+              {
+                "name": "Plain Greek yogurt",
+                "description": "1 cup, with 1 cup cucumber sticks",
+                "calories": 130,
+                "protein": 15
+              }
+            ]
+          },
+          {
+            "name": "Dinner",
+            "items": [
+              {
+                "name": "Chicken Enchilada Verde",
+                "description": "",
+                "calories": 290,
+                "protein": 10
+              }
+            ]
+          },
+          {
+            "name": "Dessert",
+            "items": [
+              {
+                "name": "Dulce de Leche Protein Pudding",
+                "description": "",
+                "calories": 90,
+                "protein": 15
+              }
+            ]
+          }
+        ],
+        "totals": {
+          "calories": 1160,
+          "protein": 107
+        }
+      },
+      {
+        "day": "Day 5",
+        "meals": [
+          {
+            "name": "Breakfast",
+            "items": [
+              {
+                "name": "Bacon and Cheese Omelet",
+                "description": "slices of tomato on ½ whole grain, high-fiber English muffin",
+                "calories": 180,
+                "protein": 18
+              }
+            ]
+          },
+          {
+            "name": "Snack 1",
+            "items": [
+              {
+                "name": "Apple slices with peanut butter",
+                "description": "½ medium apple, sliced, 2 tablespoons peanut butter",
+                "calories": 230,
+                "protein": 8
+              }
+            ]
+          },
+          {
+            "name": "Lunch",
+            "items": [
+              {
+                "name": "Chicken salad lettuce wraps",
+                "description": "with 3 ounces grilled chicken breast, ½ medium diced apple, diced celery, 2 tablespoons non-fat mayo, ½ ounce walnuts on lettuce leaves",
+                "calories": 290,
+                "protein": 25
+              }
+            ]
+          },
+          {
+            "name": "Snack 2",
+            "items": [
+              {
+                "name": "Protein Zippers",
+                "description": "",
+                "calories": 140,
+                "protein": 15
+              }
+            ]
+          },
+          {
+            "name": "Dinner",
+            "items": [
+              {
+                "name": "Broiled cod",
+                "description": "4 ounces, Quinoa pilaf with ½ cup cooked quinoa, ½ cup green peas, ¼ cup each diced celery and onion",
+                "calories": 330,
+                "protein": 36
+              }
+            ]
+          },
+          {
+            "name": "Dessert",
+            "items": [
+              {
+                "name": "Apple Cinnamon Oatmeal Cookies",
+                "description": "",
+                "calories": 110,
+                "protein": 14
+              }
+            ]
+          }
+        ],
+        "totals": {
+          "calories": 1280,
+          "protein": 139
+        }
+      },
+      {
+        "day": "Day 6",
+        "meals": [
+          {
+            "name": "Breakfast",
+            "items": [
+              {
+                "name": "Oatmeal with blueberries and almonds",
+                "description": "½ cup dry oatmeal cooked with water, ½ cup blueberries, 1 tablespoon slivered almonds",
+                "calories": 220,
+                "protein": 9
+              }
+            ]
+          },
+          {
+            "name": "Snack 1",
+            "items": [
+              {
+                "name": "Protein Shake",
+                "description": "½ scoop chocolate protein powder mixed with water",
+                "calories": 80,
+                "protein": 15
+              }
+            ]
+          },
+          {
+            "name": "Lunch",
+            "items": [
+              {
+                "name": "Turkey and cheese roll-ups",
+                "description": "with 3 ounces sliced turkey breast, 1 slice Swiss cheese, lettuce, and tomato, 1 medium apple",
+                "calories": 300,
+                "protein": 22
+              }
+            ]
+          },
+          {
+            "name": "Snack 2",
+            "items": [
+              {
+                "name": "Roasted chickpeas",
+                "description": "¼ cup",
+                "calories": 140,
+                "protein": 7
+              }
+            ]
+          },
+          {
+            "name": "Dinner",
+            "items": [
+              {
+                "name": "Grilled salmon",
+                "description": "4 ounces, 1 cup steamed broccoli, ½ cup cooked quinoa",
+                "calories": 370,
+                "protein": 34
+              }
+            ]
+          },
+          {
+            "name": "Dessert",
+            "items": [
+              {
+                "name": "Greek yogurt with honey",
+                "description": "1 cup non-fat Greek yogurt drizzled with 1 tablespoon honey",
+                "calories": 180,
+                "protein": 23
+              }
+            ]
+          }
+        ],
+        "totals": {
+          "calories": 1290,
+          "protein": 110
+        }
+      },
+      {
+        "day": "Day 7",
+        "meals": [
+          {
+            "name": "Breakfast",
+            "items": [
+              {
+                "name": "Egg and vegetable scramble",
+                "description": "2 eggs scrambled with ½ cup diced mixed vegetables, 1 slice whole wheat toast",
+                "calories": 240,
+                "protein": 16
+              }
+            ]
+          },
+          {
+            "name": "Snack 1",
+            "items": [
+              {
+                "name": "Protein Smoothie",
+                "description": "½ scoop vanilla protein powder, ½ cup almond milk, ½ cup frozen berries",
+                "calories": 150,
+                "protein": 15
+              }
+            ]
+          },
+          {
+            "name": "Lunch",
+            "items": [
+              {
+                "name": "Tuna salad lettuce wraps",
+                "description": "with 1 can tuna in water, 2 tablespoons non-fat mayo, diced celery, diced pickles, wrapped in lettuce leaves",
+                "calories": 220,
+                "protein": 28
+              }
+            ]
+          },
+          {
+            "name": "Snack 2",
+            "items": [
+              {
+                "name": "Protein Bar",
+                "description": "",
+                "calories": 180,
+                "protein": 20
+              }
+            ]
+          },
+          {
+            "name": "Dinner",
+            "items": [
+              {
+                "name": "Grilled steak",
+                "description": "4 ounces, 1 small baked potato with 1 tablespoon sour cream, 1 cup roasted Brussels sprouts",
+                "calories": 430,
+                "protein": 30
+              }
+            ]
+          },
+          {
+            "name": "Dessert",
+            "items": [
+              {
+                "name": "Mixed berries with whipped cream",
+                "description": "1 cup mixed berries topped with 2 tablespoons whipped cream",
+                "calories": 120,
+                "protein": 2
+              }
+            ]
+          }
+        ],
+        "totals": {
+          "calories": 1340,
+          "protein": 111
+        }
+      }
+    ]
+  }
