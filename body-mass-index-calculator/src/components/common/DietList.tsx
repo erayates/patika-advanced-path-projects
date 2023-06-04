@@ -14,8 +14,8 @@ const DietList: React.FC<IDietList> = ({ bmiType, setParams }) => {
 
     useEffect(() => {
         const getData = async () => {
-            if (bmiType === 'Underweight') await readFile("../../src/services/data/gain-weight-data.json");
-            if (bmiType === 'Normal') await readFile("../../src/services/data/maintain-weight-data.json");
+            if (bmiType === 'Underweight') await readFile("../services/data/gain-weight-data.json");
+            if (bmiType === 'Normal') await readFile("../services/data/maintain-weight-data.json");
             if (bmiType === 'Obese' || bmiType === 'Overweight') await readFile("../../src/services/data/lose-weight-data.json");
         };
         getData();

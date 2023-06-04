@@ -1,0 +1,299 @@
+{
+    "mealPlan": [
+        {
+            "day": "Day 1",
+            "meals": [
+                {
+                    "name": "Breakfast",
+                    "items": [
+                        {
+                            "name": "Greek omelet",
+                            "description": "2 eggs, 2 ounces feta cheese, 1 cup spinach leaves, 2 ounces sliced black olives",
+                            "calories": 420,
+                            "protein": 20
+                        }
+                    ]
+                },
+                {
+                    "name": "Lunch",
+                    "items": [
+                        {
+                            "name": "Green Pepper Steak with Rice",
+                            "description": "White Chocolate Dream Bar with 1 cup strawberries",
+                            "calories": 460,
+                            "protein": 23
+                        }
+                    ]
+                },
+                {
+                    "name": "Dinner",
+                    "items": [
+                        {
+                            "name": "Chicken breast with melted mozzarella",
+                            "description": "1 cup roasted asparagus with 1 teaspoon olive oil, Chocolate Chip Protein Cookie and ½ banana",
+                            "calories": 530,
+                            "protein": 49
+                        }
+                    ]
+                }
+            ],
+            "totals": {
+                "calories": 1410,
+                "protein": 92
+            }
+        },
+        {
+            "day": "Day 2",
+            "meals": [
+                {
+                    "name": "Breakfast",
+                    "items": [
+                        {
+                            "name": "Breakfast sandwich",
+                            "description": "1 slice cheddar, 1 cooked egg, and turkey or vegetarian breakfast sausage on Protein Pancakes",
+                            "calories": 510,
+                            "protein": 45
+                        }
+                    ]
+                },
+                {
+                    "name": "Lunch",
+                    "items": [
+                        {
+                            "name": "Spicy Chicken Oriental Protein Entrée",
+                            "description": "1 cup cooked eggplant and zucchini with 2 teaspoons olive oil, 1 cup watermelon",
+                            "calories": 430,
+                            "protein": 16
+                        }
+                    ]
+                },
+                {
+                    "name": "Dinner",
+                    "items": [
+                        {
+                            "name": "Stuffed acorn squash",
+                            "description": "1 roasted acorn squash in halves, stuffed with a mixture of ½ cup cottage cheese, 1 ounce parmesan, ½ cup cooked frozen or fresh spinach, and garlic powder and black pepper to taste",
+                            "calories": 500,
+                            "protein": 27
+                        }
+                    ]
+                }
+            ],
+            "totals": {
+                "calories": 1440,
+                "protein": 88
+            }
+        },
+        {
+            "day": "Day 3",
+            "meals": [
+                {
+                    "name": "Breakfast",
+                    "items": [
+                        {
+                            "name": "Protein Oatmeal",
+                            "description": "2 tablespoons peanut butter and 1 sliced apple",
+                            "calories": 400,
+                            "protein": 23
+                        }
+                    ]
+                },
+                {
+                    "name": "Lunch",
+                    "items": [
+                        {
+                            "name": "Lettuce leaf wraps",
+                            "description": "½ cup fat free refried beans, 3 ounces shredded chicken breast with Tex-Mex Flavor, and 1 ounce melted cheddar",
+                            "calories": 520,
+                            "protein": 53
+                        }
+                    ]
+                },
+                {
+                    "name": "Dinner",
+                    "items": [
+                        {
+                            "name": "Sloppy Joe Protein Entrée",
+                            "description": "with ½ cup Italian style stewed tomatoes on a high-fiber whole wheat bun Side salad with lettuce, tomatoes, 1 ounce shredded cheese, 2 tablespoons balsamic vinaigrette Chocolate Protein Pudding",
+                            "calories": 570,
+                            "protein": 44
+                        }
+                    ]
+                }
+            ],
+            "totals": {
+                "calories": 1490,
+                "protein": 120
+            }
+        },
+        {
+            "day": "Day 4",
+            "meals": [
+                {
+                    "name": "Breakfast",
+                    "items": [
+                        {
+                            "name": "Breakfast Parfait",
+                            "description": "Honey Nut Protein Cereal, 1 ounce sliced almonds, ½ cup cottage cheese, and ½ cup each of strawberries and blueberries",
+                            "calories": 450,
+                            "protein": 35
+                        }
+                    ]
+                },
+                {
+                    "name": "Lunch",
+                    "items": [
+                        {
+                            "name": "Vegetable Lasagna",
+                            "description": "1 cup carrot sticks, 2 tablespoons peanut butter",
+                            "calories": 490,
+                            "protein": 19
+                        }
+                    ]
+                },
+                {
+                    "name": "Dinner",
+                    "items": [
+                        {
+                            "name": "Greek burger",
+                            "description": "1 veggie burger patty (or lean ground turkey), 2 ounces feta cheese, 1 small zucchini, sliced and grilled with 1 teaspoon olive oil, and oregano, all in a whole-wheat pita pocket or hamburger bun, Protein Cocoa",
+                            "calories": 510,
+                            "protein": 43
+                        }
+                    ]
+                }
+            ],
+            "totals": {
+                "calories": 1450,
+                "protein": 97
+            }
+        },
+        {
+            "day": "Day 5",
+            "meals": [
+                {
+                    "name": "Breakfast",
+                    "items": [
+                        {
+                            "name": "Smoothie",
+                            "description": "1 banana, 1 container vanilla Greek yogurt, 2 tablespoons peanut butter, 1 cup frozen fruit (such as peaches or berries)",
+                            "calories": 490,
+                            "protein": 23
+                        }
+                    ]
+                },
+                {
+                    "name": "Lunch",
+                    "items": [
+                        {
+                            "name": "Salad",
+                            "description": "1/3 cup whole grain couscous, ½ cup garbanzo beans, 1 cup diced veggies such as onion, bell pepper, tomato, and celery, 3 ounces grilled diced chicken breast, 2 tablespoons Italian dressing",
+                            "calories": 570,
+                            "protein": 38
+                        }
+                    ]
+                },
+                {
+                    "name": "Dinner",
+                    "items": [
+                        {
+                            "name": "Broiled salmon",
+                            "description": "4 ounces broiled salmon with Asian Inspired Flavor Sauce 1 cup steamed green beans with 1 ounce almonds 1 cup strawberries",
+                            "calories": 500,
+                            "protein": 29
+                        }
+                    ]
+                }
+            ],
+            "totals": {
+                "calories": 1560,
+                "protein": 90
+            }
+        },
+        {
+            "day": "Day 6",
+            "meals": [
+                {
+                    "name": "Breakfast",
+                    "items": [
+                        {
+                            "name": "Cinnamon Vanilla Protein Cereal",
+                            "description": "1 banana, sliced, 1 ounce walnuts, and 1 container Greek yogurt",
+                            "calories": 540,
+                            "protein": 30
+                        }
+                    ]
+                },
+                {
+                    "name": "Lunch",
+                    "items": [
+                        {
+                            "name": "Whole-grain pita",
+                            "description": "2 tablespoons hummus, 1 ounce provolone or mozzarella cheese, and 1 cup fresh sprouts, lettuce, or other veggies Protein Potato Chips",
+                            "calories": 440,
+                            "protein": 25
+                        }
+                    ]
+                },
+                {
+                    "name": "Dinner",
+                    "items": [
+                        {
+                            "name": "Chicken Pasta",
+                            "description": "1 cup steamed broccoli florets, Double Chocolate Cake with 1 cup raspberries",
+                            "calories": 450,
+                            "protein": 31
+                        }
+                    ]
+                }
+            ],
+            "totals": {
+                "calories": 1430,
+                "protein": 86
+            }
+        },
+        {
+            "day": "Day 7",
+            "meals": [
+                {
+                    "name": "Breakfast",
+                    "items": [
+                        {
+                            "name": "Vegetable Protein Omelet",
+                            "description": "2 ounces lean turkey breakfast sausage patties, 1 medium potato in cubes, roasted with 2 teaspoons olive oil",
+                            "calories": 450,
+                            "protein": 29
+                        }
+                    ]
+                },
+                {
+                    "name": "Lunch",
+                    "items": [
+                        {
+                            "name": "Roll-ups",
+                            "description": "3 ounces all-natural turkey breast slices and 1 ounce swiss cheese, spread with 1 ounce non-fat cream cheese, dotted with 1 ounce walnuts, rolled around matchsticks of veggies such as bell peppers, cucumbers, and carrots 2 small clementines",
+                            "calories": 530,
+                            "protein": 25
+                        }
+                    ]
+                },
+                {
+                    "name": "Dinner",
+                    "items": [
+                        {
+                            "name": "Protein Pasta Fettuccine",
+                            "description": "tossed with 1 ounce cashews, 1 cup cooked veggies such as broccoli florets, sugar snap peas, and carrot slices, and VLC Pasta Sauce of your choice",
+                            "calories": 590,
+                            "protein": 28
+                        }
+                    ]
+                }
+            ],
+            "totals": {
+                "calories": 1570,
+                "protein": 82
+            }
+        }
+    ],
+    "description":"To maintain weight, focus on a balanced diet, portion control, and whole foods. Stay active with regular exercise and strength training. Prioritize sleep, hydration, and stress management. Seek support from loved ones or join a support group for accountability and motivation. Remember to celebrate your achievements along the way to stay motivated and inspired."
+}

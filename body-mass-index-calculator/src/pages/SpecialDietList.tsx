@@ -64,7 +64,7 @@ const SpecialDietList = () => {
         </div>
         <div className="special-diet-right">
           <div className="special-diet-right-div"></div>
-          <img src="../../src/assets/images/meal.png" className="w-[300px] h-[300px] sm:h-[500px] sm:w-[500px] relative" />
+          <img src="../images/meal.png" className="w-[300px] h-[300px] sm:h-[500px] sm:w-[500px] relative" />
         </div>
       </div>
       <div>
