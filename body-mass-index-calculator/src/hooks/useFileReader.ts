@@ -17,6 +17,7 @@ const useFileReader = () => {
     try{
       const data = await fetch(filePath);
       const response = await data.json();
+      
       setStatus({ loading: false, error: false });
       setFileContent(response);
     }

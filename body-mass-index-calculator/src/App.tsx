@@ -1,5 +1,5 @@
 import './globals.css'
-import Header from './components/Header'
+import Header from './components/layout/Header'
 import Home from './pages/Home'
 import { Route, Routes } from 'react-router-dom'
 import WhatIsTheBMI from './pages/WhatIsTheBMI'

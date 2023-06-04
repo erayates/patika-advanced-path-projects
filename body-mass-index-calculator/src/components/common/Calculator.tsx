@@ -12,7 +12,7 @@ const Calculator = () => {
     const [form, setForm] = useState<IForm>({
         weight: 0,
         height: 0,
-        type: ''
+        type: 'metric'
     });
 
     const navigate = useNavigate();

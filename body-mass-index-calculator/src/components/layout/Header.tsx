@@ -1,4 +1,4 @@
-import Hero from "./Hero"
+import Hero from "../common/Hero"
 import Navigation from "./Navigation"
 
 const Header = () => {
