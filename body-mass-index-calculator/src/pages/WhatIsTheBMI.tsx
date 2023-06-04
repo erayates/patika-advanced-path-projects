@@ -3,13 +3,13 @@ import { AiOutlineQuestion } from 'react-icons/ai'
 const WhatIsTheBMI = () => {
   return (
     <main className='about-bmi'>
-      <div className='about-bmi__header relative flex flex-col md:flex-row'>
-        <div className='about-bmi-left w-full lg:w-1/2'>
-          <div className='about-bmi-left__icon text-[72px] md:text-[100px] flex items-center  bg-[#d1e4ff] rounded-full '>
+      <div className='about-bmi__header '>
+        <div className='w-full lg:w-1/2'>
+          <div className='about-bmi-left__icon'>
             <div className='inline-block bg-[#E4EFFE] rounded-full p-6'>
               <AiOutlineQuestion />
             </div>
-            <h3 className='text-[24px] md:text-[36px] inline-block font-medium ml-8  lg:ml-12 '>What is the BMI?</h3>
+            <h3 className='about-bmi-left__title'>What is the BMI?</h3>
           </div>
           <div className='about-bmi-left__text mt-10 text-[16px] md:text-[20px]'>
             The body mass index (BMI) is a measure that uses your height and weight to work out if your weight is healthy.
@@ -38,9 +38,9 @@ const WhatIsTheBMI = () => {
           </div>
         </div>
 
-        <div className='about-bmi-right mt-20 md:mt-0 w-full lg:w-1/2 h-[500px] md:h-[600px] flex justify-center items-center' >
+        <div className='about-bmi-right' >
           <img 
-            src='https://creazilla-store.fra1.digitaloceanspaces.com/cliparts/37396/man-weight-scale-fat-clipart-md.png'
+            src='../../src/assets/images/man-weight-scale.png'
             className='h-full object-cover'            
           />
         </div>

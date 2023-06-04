@@ -8,14 +8,14 @@ const Home = () => {
   return (
     <main className="home">
       <div className="home-info md:flex">
-        <div className="home-info__image rounded-xl relative md:w-1/2">
-          <div className="home-info__image__overlay bg-[#DEE8FC] rounded-xl w-full h-[400px] ">
-            <img src="https://rococo-shortbread-8c82fb.netlify.app/assets/healthy-person-886c8d03.png" alt="fitness tracker" className="object-cover relative w-full h-full md:object-center" />
+        <div className="home-info__image rounded-xl flex justify-center relative md:w-1/2">
+          <div className="home-info__image__overlay bg-[#DEE8FC] rounded-xl w-[400px] h-[400px] ">
           </div>
+          <img src="https://rococo-shortbread-8c82fb.netlify.app/assets/healthy-person-886c8d03.png" alt="fitness tracker" className="object-cover absolute top-[-200px] z-20 h-[600px] md:object-center rounded-xl" />
 
         </div>
-        <div className="home-info__text mt-10 md:mt-0 md:ml-10 md:w-1/2 md:p-10">
-          <h3 className="home-info__title text-[28px] font-semibold">What Is Your BMI Results Means?</h3>
+        <div className="md:mt-0 md:ml-10 md:w-1/2 md:p-5">
+          <h3 className="home-info__title text-[28px] font-semibold mt-5 md:mt-0">What Is Your BMI Results Means?</h3>
           <p className="home-info__text mt-5">
             Body Mass Index (BMI) is a numerical value derived from your weight and height.
             Its a common indicator to categorize your body size. Underweight is a BMI less than 18.5.

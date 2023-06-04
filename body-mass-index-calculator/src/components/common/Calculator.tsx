@@ -7,7 +7,6 @@ interface IForm {
     type: string
 }
 
-
 const Calculator = () => {
     const [form, setForm] = useState<IForm>({
         weight: 0,
@@ -21,6 +20,7 @@ const Calculator = () => {
         const { id, value } = event.target;
         if (isNaN(Number(value))) {
             alert('Please enter a number!')
+            event.target.value = '';
             return
         }
 
@@ -34,7 +34,7 @@ const Calculator = () => {
     const handleRadioButton = (event: any): void => {
         setForm((prevForm) => ({
           ...prevForm,
-          type: event.currentTarget.id
+          type: event.target.id
         }));
       };
       
@@ -44,6 +44,16 @@ const Calculator = () => {
         event.preventDefault();
         if (!form.weight || !form.height || !form.type) {
             alert('Please fill all the fields!')
+            return
+        }
+
+        if(form.type === 'metric' && (form.height < 100 || form.height > 250)) {
+            alert('Please enter a height between 100 and 250 cm!')
+            return
+        }
+
+        if(form.type === 'imperial' && (form.height < 40 || form.height > 300)) {
+            alert('Please enter a height between 40 and 300 inches!')
             return
         }
 

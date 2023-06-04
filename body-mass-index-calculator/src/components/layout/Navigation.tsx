@@ -11,7 +11,7 @@ const Navigation = () => {
     }
 
     return (
-        <nav className='p-6 flex justify-between items-center relative text-[#253345] z-30 bg-white'>
+        <nav className='p-6 flex justify-between items-center relative z-30 bg-white'>
             <div className='nav-logo'>
                 <h1 className='nav-logo__title text-[32px] font-semibold'>
                     <Link to={'/'}>BMI</Link>
@@ -20,8 +20,8 @@ const Navigation = () => {
 
             <GiHamburgerMenu className="md:hidden text-[24px] cursor-pointer" onClick={handleMenuToggle} />
             {isOpen && (
-                <div className='nav-mobile-menu md:hidden absolute top-[90px]'>
-                    <ul className='nav-mobile-menu__list flex flex-col'>
+                <div className='nav-mobile-menu md:hidden absolute top-[80px] bg-white w-full'>
+                    <ul className='nav-mobile-menu__list flex flex-col w-full'>
                         <li className='nav-mobile-menu__list-item mb-2 font-medium '>
                             <Link to="/">Home</Link>
                         </li>

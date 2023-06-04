@@ -54,20 +54,20 @@ const SpecialDietList = () => {
 
   return (
     <main className="special-diet flex flex-col">
-      <div className="flex">
-        <div className="special-diet-left w-1/2">
-          <div className="special-diet-left-header">
+      <div className="flex lg:flex-row flex-col">
+        <div className="special-diet-left w-full lg:w-1/2">
+          <div className="special-diet-left-header text-[20px]">
             <h3 className="font-semibold text-[36px]">Special Diet List For You:</h3>
-            <p className="text-[20px]">Your Weight: <span className="font-semibold">{params.weight} cm</span></p>
-            <p className="text-[20px]">Your Height: <span className="font-semibold">{params.height} kg</span></p>
+            <p>Your Weight: <span className="font-semibold">{params.weight} cm</span></p>
+            <p>Your Height: <span className="font-semibold">{params.height} kg</span></p>
             <hr className="my-4"></hr>
-            <p className="text-[20px]">Your BMI: <span className="font-semibold">{params.bmi} - {params.bmiType}</span></p>
-            <p className="text-[16px] mt-5">{params.description}</p>
+            <p>Your BMI: <span className="font-semibold">{params.bmi} - {params.bmiType}</span></p>
+            <p className="mt-5">{params.description}</p>
           </div>
         </div>
-        <div className="special-diet-right w-1/2 flex justify-center items-center">
-          <div className="special-diet-right-div bg-[#DEE8FC] h-[400px] w-[400px]  absolute rounded-2xl"></div>
-          <img src="https://www.pngall.com/wp-content/uploads/2/Healthy-Meal-PNG.png" className="h-[500px] w-[500px] relative" />
+        <div className="special-diet-right">
+          <div className="special-diet-right-div"></div>
+          <img src="../../src/assets/images/meal.png" className="w-[300px] h-[300px] sm:h-[500px] sm:w-[500px] relative" />
         </div>
       </div>
       <div>

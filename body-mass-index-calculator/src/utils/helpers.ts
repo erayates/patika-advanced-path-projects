@@ -15,8 +15,8 @@ export const findBMIType = (bmi: number): string => {
 
 export const convertToMetric = (weight: number, height: number, unit: string): any => {
     if (unit === 'metric') return { weight, height, unit}
-    const metricWeight = weight / 2.205
-    const metricHeight = height * 2.54
+    const metricWeight = (weight / 2.205).toFixed(2)
+    const metricHeight = (height * 2.54).toFixed(2)
     return { weight: metricWeight, height: metricHeight, unit: 'metric' }
 }
 

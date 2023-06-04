@@ -33,6 +33,8 @@ main{
   @apply text-[48px] font-bold mb-5 leading-[3.5rem]
 }
 
+/* HOME */
+
 .home-limitations__item{
   box-shadow: 10px 10px 50px #718fbc97;
 }
@@ -84,3 +86,50 @@ main{
   @apply  bg-[#486FFB] text-white mt-10 p-4 rounded-s-xl
 }
 
+
+/**********************
+     DIET LIST ITEM
+***********************/
+.meal-plan__item{
+  @apply  shadow-xl my-10 rounded-xl p-8
+}
+
+.meal-plan__item-title{
+  @apply  text-[24px] font-medium
+}
+
+.meal-plan__item-meal-title{
+  @apply  text-[20px] font-semibold
+}
+
+.meal-plan__body{
+  @apply grid grid-cols-1 gap-12 md:grid-cols-2 lg:grid-cols-3
+}
+
+
+/* SPECIAL DIET LIST PAGE */
+
+.special-diet-right{
+  @apply  w-full mt-10 lg:mt-0 lg:w-1/2 flex justify-center items-center
+}
+
+.special-diet-right-div{
+  @apply  bg-[#DEE8FC] h-[250px] w-[250px] sm:h-[400px] sm:w-[400px]  absolute rounded-2xl
+}
+
+/* WHAT IS THE BMI PAGE*/
+.about-bmi__header{
+  @apply relative flex flex-col md:flex-row
+}
+
+.about-bmi-left__icon{
+  @apply  text-[72px] md:text-[100px] flex items-center  bg-[#d1e4ff] rounded-full 
+}
+
+.about-bmi-left__title{
+  @apply text-[24px] md:text-[36px] inline-block font-medium ml-8  lg:ml-12 
+}
+
+.about-bmi-right{
+  @apply mt-20 md:mt-0 w-full lg:w-1/2 h-[500px] md:h-[600px] flex justify-center items-center
+}
