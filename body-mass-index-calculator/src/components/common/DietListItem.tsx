@@ -1,6 +1,4 @@
-import React from 'react'
-
-const DietListItem = ({fileContent}) => {
+const DietListItem : React.FC<any> = ({fileContent}) => {
     return (
         <>
             {

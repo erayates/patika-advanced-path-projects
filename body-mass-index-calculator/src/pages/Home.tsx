@@ -11,7 +11,7 @@ const Home = () => {
         <div className="home-info__image rounded-xl flex justify-center relative md:w-1/2">
           <div className="home-info__image__overlay bg-[#DEE8FC] rounded-xl w-[400px] h-[400px] ">
           </div>
-          <img src="https://rococo-shortbread-8c82fb.netlify.app/assets/healthy-person-886c8d03.png" alt="fitness tracker" className="object-cover absolute top-[-200px] z-20 h-[600px] md:object-center rounded-xl" />
+          <img src="../images/person.png" alt="fitness tracker" className="object-cover absolute top-[-200px] z-20 h-[600px] md:object-center rounded-xl" />
 
         </div>
         <div className="md:mt-0 md:ml-10 md:w-1/2 md:p-5">

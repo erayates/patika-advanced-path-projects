@@ -3,12 +3,13 @@ import useFileReader from "../../hooks/useFileReader";
 import DietListItem from "./DietListItem";
 
 
-interface DietListProps {
+interface IDietList {
     bmiType: string;
-    setParams: (params: object) => void;
+    setParams: any;
 }
 
-const DietList: React.FC<DietListProps> = ({ bmiType, setParams }) => {
+
+const DietList: React.FC<IDietList> = ({ bmiType, setParams }) => {
     const { fileContent, readFile, status } = useFileReader();
 
     useEffect(() => {

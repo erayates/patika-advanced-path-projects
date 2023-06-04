@@ -40,7 +40,7 @@ const WhatIsTheBMI = () => {
 
         <div className='about-bmi-right' >
           <img 
-            src='../../src/assets/images/man-weight-scale.png'
+            src='../images/man-weight-scale.png'
             className='h-full object-cover'            
           />
         </div>

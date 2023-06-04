@@ -37,7 +37,6 @@ const SpecialDietList = () => {
     const bmi = calculateBMI(searchParams.get('w'), searchParams.get('h'));
     const bmiType = findBMIType(bmi);
 
-
     setParams({
       weight: weight,
       height: height,
@@ -46,8 +45,6 @@ const SpecialDietList = () => {
       bmiType: bmiType,
       description: '',
     })
-
-
 
   }, [searchParams])
 

@@ -6,7 +6,7 @@ interface IStatus {
 }
 
 const useFileReader = () => {
-  const [fileContent, setFileContent] = useState('');
+  const [fileContent, setFileContent] = useState<any>({});
   const [status, setStatus] = useState<IStatus>({
     loading: false,
     error: false,
