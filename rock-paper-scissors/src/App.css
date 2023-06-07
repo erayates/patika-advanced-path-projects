@@ -1,0 +1,7 @@
+
+body {
+    @apply font-barlow text-center box-border text-white;
+    background: radial-gradient(circle,#1f3756,#141539);
+    height: 100vh;
+}
+
