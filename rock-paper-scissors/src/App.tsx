@@ -1,10 +1,12 @@
 import './App.css'
-import Header from './components/layout/Header'
+import Playground from './components/Playground'
+import Header from './components/layouts/Header'
 
 function App() {
   return (
-    <div className='container max-w-4xl'>
+    <div className='container max-w-3xl'>
       <Header/>
+      <Playground />
     </div>
   )
 }
