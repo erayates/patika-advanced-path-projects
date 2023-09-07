@@ -1,31 +1,31 @@
 body {
-    @apply font-barlow text-center box-border text-white;
-    background: radial-gradient(circle, #1f3756, #141539);
-    height: 100vh;
+  @apply font-barlow text-center box-border text-white;
+  background: radial-gradient(circle, #1f3756, #141539);
 }
 
 .playground-item {
-    @apply h-[160px] w-[160px] border-[18px] rounded-[50%] cursor-pointer hover:scale-110 transition bg-white
+  @apply h-[160px] w-[160px] border-[18px] rounded-[50%] cursor-pointer hover:scale-110 transition bg-white;
 }
 
-.playground-items{
-    @apply flex justify-center absolute h-full w-full;
+.playground-item--large {
+  @apply h-[240px] w-[240px] border-[18px] rounded-[50%] cursor-pointer hover:scale-110 transition bg-white;
 }
 
-.playground-item--rock{
-    @apply  border-[#dc2e4e] shadow-rock absolute bottom-0; 
-    background: url('../images/scissors.svg') no-repeat center center white; 
+.playground-items {
+  @apply flex justify-center absolute h-full w-full;
 }
 
-.playground-item--scissors{
-    @apply border-[#ec9e0e] shadow-scissors absolute right-[150px] top-[-50px];
-    background: url('../images/rock.svg') no-repeat center center white; 
-
+.playground-item--scissors {
+  @apply border-[#dc2e4e] shadow-rock ;
+  background: url("../images/scissors.svg") no-repeat center center white;
 }
 
-.playground-item--paper{
-    @apply border-[#4865f4] shadow-paper absolute left-[150px] top-[-50px];
-    background: url('../images/paper.svg') no-repeat center center white; 
-
+.playground-item--rock {
+  @apply border-[#ec9e0e] shadow-scissors;
+  background: url("../images/rock.svg") no-repeat center center white;
 }
 
+.playground-item--paper {
+  @apply border-[#4865f4] shadow-paper;
+  background: url("../images/paper.svg") no-repeat center center white;
+}
