@@ -1,16 +1,35 @@
 import * as React from "react";
-import FormControl from "@mui/joy/FormControl";
-import { Button, Input } from "@mui/joy";
+import { Button, Divider, Input } from "@mui/joy";
 
 import { AiOutlineSearch } from "react-icons/ai";
 
-export default function ControllableStates() {
+export default function SearchInput({ setSearchInput, inputRef }) {
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    const form = new FormData(e.target);
+    setSearchInput(form.get("search_input"));
+  };
+
   return (
-    <div style={{ display: "flex", gap: 20, marginTop: 20 }}>
-      <Input color="primary" variant="soft" fullWidth placeholder="Start typing..."/>
-      <Button variant="soft">
-        <AiOutlineSearch style={{ fontSize: 20, marginRight: 0 }} />
-      </Button>
-    </div>
+    <>
+      <form
+        onSubmit={handleSubmit}
+        style={{ display: "flex", gap: 20, marginTop: 20 }}
+      >
+        <Input
+          color="primary"
+          variant="soft"
+          id="search_input"
+          name="search_input"
+          fullWidth
+          placeholder="Start typing..."
+          
+        />
+        <Button type="submit" variant="soft">
+          <AiOutlineSearch style={{ fontSize: 20, marginRight: 0 }} />
+        </Button>
+      </form>
+      <Divider sx={{ marginY: 3 }} />
+    </>
   );
 }

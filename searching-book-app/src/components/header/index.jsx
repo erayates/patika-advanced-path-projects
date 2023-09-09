@@ -2,7 +2,6 @@ import * as React from "react";
 
 import Box from "@mui/joy/Box";
 import Button from "@mui/joy/Button";
-import IconButton from "@mui/joy/IconButton";
 import Typography from "@mui/joy/Typography";
 import Sheet from "@mui/joy/Sheet";
 
@@ -39,16 +38,9 @@ export default function Header() {
             "& > *": { flexGrow: 1, fontWeight: "lg" },
           }}
         >
-          <Button sx={{ minWidth: 120 }}>Open Google Books</Button>
-          <Button
-            variant="plain"
-            sx={{
-              "&:hover": { "--Button-gap": "0.625rem" },
-              "& span": { transition: "0.15s" },
-            }}
-          >
-            Search Books
-          </Button>
+          <a href="https://books.google.com" target="_blank">
+            <Button sx={{ minWidth: 120 }}>Open Google Books</Button>
+          </a>
         </Box>
       </Box>
       <Box
@@ -57,20 +49,6 @@ export default function Header() {
         src="https://storage.googleapis.com/cms-storage-bucket/72521e62275b24d3c37d.png"
         sx={{ position: "absolute", height: "100%", top: 0, right: 0 }}
       />
-      <IconButton
-        sx={{
-          position: "absolute",
-          bottom: "1.5rem",
-          right: "1.5rem",
-          borderRadius: "50%",
-        }}
-        onClick={() => {
-          const colors = ["primary", "neutral", "danger", "success", "warning"];
-
-          const nextColor = colors.indexOf(color);
-          setColor(colors[nextColor + 1] ?? colors[0]);
-        }}
-      ></IconButton>
     </Sheet>
   );
 }
